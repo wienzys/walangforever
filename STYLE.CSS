@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(BANANA\ CHACHA.jpg) no-repeat;
+    background-size: cover;
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .logo h1 {
+    z-index: 1;
+}
+
+.nav .logo img {
+    position: relative;
+    left: 60px;
+    top: 5px;
+}
+
+.shap {
+    animation: rotat 2s infinite linear;
+}
+
+@keyframes rotat {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    -ms-text-kashida-space: 0fr;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+    font-weight: 700;
+    margin: 0px 20px;
+
+}
+
+.nav ul li a:hover {
+    color: rgb(255, 196, 240);
+}
+
+.box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p {
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+    color: #b9b9b9;
+}
